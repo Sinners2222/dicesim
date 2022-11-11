@@ -4,7 +4,7 @@ local args = {
     [3] = "Buy",
     [4] = 1
 }
-
+Wait (0.5)
 game:GetService("ReplicatedStorage").Remote:FireServer(unpack(args))
 local args = {
     [1] = "Shop",
@@ -12,7 +12,7 @@ local args = {
     [3] = "Buy",
     [4] = 2
 }
-
+Wait (0.5)
 game:GetService("ReplicatedStorage").Remote:FireServer(unpack(args))
 local args = {
     [1] = "Shop",
@@ -20,7 +20,7 @@ local args = {
     [3] = "Buy",
     [4] = 3
 }
-
+Wait (0.5)
 game:GetService("ReplicatedStorage").Remote:FireServer(unpack(args))
 local args = {
     [1] = "Shop",
@@ -28,7 +28,7 @@ local args = {
     [3] = "Buy",
     [4] = 4
 }
-
+Wait (0.5)
 game:GetService("ReplicatedStorage").Remote:FireServer(unpack(args))
 local args = {
     [1] = "Shop",
@@ -36,7 +36,7 @@ local args = {
     [3] = "Buy",
     [4] = 5
 }
-
+Wait (0.5)
 game:GetService("ReplicatedStorage").Remote:FireServer(unpack(args))
 local args = {
     [1] = "Shop",
@@ -44,7 +44,7 @@ local args = {
     [3] = "Buy",
     [4] = 6
 }
-
+Wait (0.5)
 game:GetService("ReplicatedStorage").Remote:FireServer(unpack(args))
 local args = {
     [1] = "Shop",
@@ -52,7 +52,7 @@ local args = {
     [3] = "Buy",
     [4] = 7
 }
-
+Wait (0.5)
 game:GetService("ReplicatedStorage").Remote:FireServer(unpack(args))
 local args = {
     [1] = "Shop",
@@ -60,7 +60,7 @@ local args = {
     [3] = "Buy",
     [4] = 8
 }
-
+Wait (0.5)
 game:GetService("ReplicatedStorage").Remote:FireServer(unpack(args))
 local args = {
     [1] = "Shop",
@@ -68,7 +68,7 @@ local args = {
     [3] = "Buy",
     [4] = 9
 }
-
+Wait (0.5)
 game:GetService("ReplicatedStorage").Remote:FireServer(unpack(args))
 local args = {
     [1] = "Shop",
@@ -76,7 +76,7 @@ local args = {
     [3] = "Buy",
     [4] = 10
 }
-
+Wait (0.5)
 game:GetService("ReplicatedStorage").Remote:FireServer(unpack(args))
 local args = {
     [1] = "Shop",
@@ -84,7 +84,7 @@ local args = {
     [3] = "Buy",
     [4] = 11
 }
-
+Wait (0.5)
 game:GetService("ReplicatedStorage").Remote:FireServer(unpack(args))
 local args = {
     [1] = "Shop",
@@ -92,7 +92,7 @@ local args = {
     [3] = "Buy",
     [4] = 12
 }
-
+Wait (0.5)
 game:GetService("ReplicatedStorage").Remote:FireServer(unpack(args))
 local args = {
     [1] = "Shop",
@@ -100,7 +100,7 @@ local args = {
     [3] = "Buy",
     [4] = 13
 }
-
+Wait (0.5)
 game:GetService("ReplicatedStorage").Remote:FireServer(unpack(args))
 local args = {
     [1] = "Shop",
@@ -110,3 +110,4 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage").Remote:FireServer(unpack(args))
+Wait (0.5)
