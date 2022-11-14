@@ -80,3 +80,19 @@ local RunService = game:GetService("RunService")
             end)
     end
 end)
+local Key = "R"
+local Toggle = false
+game:GetService("UserInputService").InputBegan:Connect(function(keyobject, stuffhappening)
+    if keyobject.KeyCode == Enum.KeyCode[Key] and not stuffhappening then 
+        Toggle = not Toggle
+    end
+end)
+
+
+game:GetService('RunService').Stepped:connect(function()
+    if Toggle then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Sinners2222/dicesim/main/rebirth"))()
+            end
+            end)
+    end
+end)
