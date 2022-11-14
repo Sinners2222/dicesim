@@ -1,0 +1,9 @@
+local args = {
+    [1] = "Shop",
+    [2] = "Rank",
+    [3] = "Buy",
+    [4] = 
+}
+game:GetService("ReplicatedStorage").Remote:FireServer(unpack(args))
+
+i, v = (1-132) -- i want my variable to run inside the arg 4. making it run 1 through 132
